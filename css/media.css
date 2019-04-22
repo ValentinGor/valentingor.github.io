@@ -1,5 +1,5 @@
 /*Медиазапросы диапазонные*/
-@media (min-width: 1367px) and (max-width: 9999px){
+@media (min-width: 1367px) and (max-width: 9999px) {
 
 }
 
@@ -32,7 +32,6 @@
 }
 
 
-
 /*Медиазапросы от 0*/
 @media (min-width: 0) and (max-width: 1199px) {
 
@@ -43,7 +42,21 @@
 }
 
 @media (min-width: 0) and (max-width: 767px) {
+    .top__line_menu {
+        display: none;
+    }
 
+    .general__information_head {
+        padding-left: 0;
+    }
+
+    .general__information_text {
+        padding-left: 0;
+    }
+
+    .general__information_link a {
+        margin-left: calc(50% - 90px);
+    }
 }
 
 @media (min-width: 0) and (max-width: 575px) {
