@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="95806602-5b33-4373-88e2-3af798f4bed6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/valentin.loc.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/font/xcon.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/font/xcon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/font/xcon.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/font/xcon.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/font/xcon.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/plugins.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/about/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/about/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/blog/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/blog/1170x450.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/blog/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/blog/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/blog/500x350.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/clients/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/clients/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/clients/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/hero/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/hero/image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/jarallax/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/jarallax/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/logo/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/partners/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/partners/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/partners/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/partners/6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/partners/7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/portfolio/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/portfolio/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/portfolio/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/portfolio/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/portfolio/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/portfolio/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/portfolio/600x600.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/portfolio/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/svg/adobe-illustrator.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/svg/arrow-right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/svg/arrow.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/svg/arrow2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/svg/atari.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/svg/award.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/svg/bed.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/svg/bicycle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/svg/bookmark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/svg/bridge.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/svg/camera-diaphragm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/svg/cancel.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/svg/car.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/svg/checked.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/svg/checked2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/svg/checked_fat.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/svg/close.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/svg/close1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/svg/credit-card.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/svg/cup-of-drink.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/svg/dashed-line.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/svg/divider1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/svg/divider2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/svg/down-arrow.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/svg/download.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/svg/download2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/svg/favorite.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/svg/foreign.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/svg/forward.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/svg/gallery.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/svg/gps-fixed-indicator.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/svg/heart.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/svg/heartt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/svg/hospital.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/svg/hotel (2).svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/svg/hotel.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/svg/human.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/svg/instagram.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/svg/layers (1).svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/svg/layers.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/svg/left-arrow.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/svg/magnifying-glass-browser.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/svg/message.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/svg/movie.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/svg/new-tab.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/svg/open-book.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/svg/padlock.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/svg/paper.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/svg/park.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/svg/pencil.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/svg/phone-call.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/svg/photo-camera.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/svg/placeholder.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/svg/play-button.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/svg/play.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/svg/purchase.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/svg/quote.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/svg/quote2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/svg/quote3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/svg/quote4.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/svg/quote5.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/svg/quote6.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/svg/restaurant.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/svg/review.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/svg/search.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/svg/seo-performance-marketing-graphic.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/svg/separator2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/svg/service.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/svg/share (1).svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/svg/share.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/svg/shopping-cart.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/svg/shopping.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/svg/speaker-off.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/svg/speaker.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/svg/text_reading.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/svg/theatre.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/svg/up-arrow.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/svg/verification-mark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/svg/video-camera.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/svg/video-player.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/svg/warning.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/svg/wave.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/svg/wifi.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/svg/zoom-in.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/svg/zoom.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index_3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/ie8.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/modernizr.custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/plugins.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modal/contact.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video/1.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/media.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/normalize.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/demo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/stylesheet.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/subset-Montserrat-Regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/subset-Montserrat-Regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/subset-Montserrat-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/subset-Montserrat-Regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/subset-OpenSans-Regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/subset-OpenSans-Regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/subset-OpenSans-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/subset-OpenSans-Regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/bg_section__one.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/coding.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/terminal.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/bootstrap.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery-3.3.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/maskedinput.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/popper.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/fancybox/jquery.fancybox.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/fancybox/jquery.fancybox.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/font-awesome/css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/font-awesome/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/font-awesome/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/font-awesome/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/font-awesome/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/font-awesome/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/font-awesome/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/jQueryFormStyler/jquery.formstyler.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/jQueryFormStyler/jquery.formstyler.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/jQueryFormStyler/jquery.formstyler.theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/owlcarousel/owl.carousel.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/owlcarousel/owl.carousel.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/owlcarousel/owl.theme.default.min.css" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-552">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/style.css">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/media.css" />
+        <option value="$PROJECT_DIR$/css/style.css" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1383" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="my-page.loc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-page.loc" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="95806602-5b33-4373-88e2-3af798f4bed6" name="Default Changelist" comment="" />
+      <created>1555773515699</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1555773515699</updated>
+      <workItem from="1555773517192" duration="587000" />
+      <workItem from="1555774410461" duration="846000" />
+      <workItem from="1555917186408" duration="7000" />
+      <workItem from="1555944304063" duration="7010000" />
+      <workItem from="1556001755217" duration="235000" />
+      <workItem from="1556823724952" duration="432000" />
+    </task>
+    <task id="LOCAL-00001" summary="Создана структура будущей страницы">
+      <created>1555773883923</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1555773883923</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Добавлена первая линия">
+      <created>1555774479568</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1555774479568</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Сверстана первая секция // остается вопрос по сочетанию шрифтов">
+      <created>1555952223683</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1555952223683</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="9117000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18785425" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32998884" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Создана структура будущей страницы" />
+    <MESSAGE value="Добавлена первая линия" />
+    <MESSAGE value="Сверстана первая секция // остается вопрос по сочетанию шрифтов" />
+    <option name="LAST_COMMIT_MESSAGE" value="Сверстана первая секция // остается вопрос по сочетанию шрифтов" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/libs/fancybox/jquery.fancybox.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="10" column="28906" selection-start-line="10" selection-start-column="28906" selection-end-line="10" selection-end-column="28906" />
+          <folding>
+            <element signature="e#182#188#0" expanded="true" />
+            <element signature="e#189#195#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fonts/stylesheet.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" selection-start-line="1" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/media.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modal/contact.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#strong#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#strong#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#strong#2;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-552">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+  </component>
+</project>
