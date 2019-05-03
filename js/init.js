@@ -13,28 +13,28 @@ jQuery(document).ready(function(){
 	
 	// here all ready functions
 	
-	edina_tm_hamburger();
-	edina_tm_imgtosvg();
-	edina_tm_magnific_popup();
-	edina_tm_jarallax();
-	edina_tm_portfolio();
-	edina_tm_portfolio_animation();
-	edina_tm_totop();
-	edina_tm_totop_myhide();
-	edina_tm_nav_bg_scroll();
-	edina_tm_anchor();
-	edina_tm_contact_form();
-	edina_tm_owl_carousel();
-	edina_tm_text_animation();
-	edina_tm_animate_text();
-	edina_tm_popupscroll();
-	edina_tm_popup_blog();
+	vg_tm_hamburger();
+	vg_tm_imgtosvg();
+	vg_tm_magnific_popup();
+	vg_tm_jarallax();
+	vg_tm_portfolio();
+	vg_tm_portfolio_animation();
+	vg_tm_totop();
+	vg_tm_totop_myhide();
+	vg_tm_nav_bg_scroll();
+	vg_tm_anchor();
+	vg_tm_contact_form();
+	vg_tm_owl_carousel();
+	vg_tm_text_animation();
+	vg_tm_animate_text();
+	vg_tm_popupscroll();
+	vg_tm_popup_blog();
 
 	
 	jQuery(window).on('scroll',function(){
 		//e.preventDefault();
-		edina_tm_totop_myhide();
-		edina_tm_nav_bg_scroll();
+		vg_tm_totop_myhide();
+		vg_tm_nav_bg_scroll();
 	});
 	
 });
@@ -47,7 +47,7 @@ jQuery(document).ready(function(){
 // ---------------    IMAGE TO SVG    ------------------
 // -----------------------------------------------------
 
-function edina_tm_imgtosvg(){
+function vg_tm_imgtosvg(){
 	
 	"use strict";
 	
@@ -81,12 +81,12 @@ function edina_tm_imgtosvg(){
 // ---------------  HAMBURGER  -------------------------
 // -----------------------------------------------------
 
-function edina_tm_hamburger(){
+function vg_tm_hamburger(){
 	
 	"use strict";
 	
 	var hamburger 		= jQuery('.hamburger');
-	var mobileMenu		= jQuery('.edina_tm_mobile_menu_wrap');
+	var mobileMenu		= jQuery('.vg_tm_mobile_menu_wrap');
 	
 	hamburger.on('click',function(){
 		var element 	= jQuery(this);
@@ -106,7 +106,7 @@ function edina_tm_hamburger(){
 // --------------    MAGNIFIC POPUP    -----------------
 // -----------------------------------------------------
 
-function edina_tm_magnific_popup(){
+function vg_tm_magnific_popup(){
 	
 	"use strict";
 	
@@ -153,7 +153,7 @@ function edina_tm_magnific_popup(){
 // --------------------    JARALLAX    -----------------
 // -----------------------------------------------------
 
-function edina_tm_jarallax(){
+function vg_tm_jarallax(){
 	
 	"use strict";
 	
@@ -179,15 +179,15 @@ function edina_tm_jarallax(){
 
 // filterable 
 
-function edina_tm_portfolio(){
+function vg_tm_portfolio(){
 
 	"use strict";
 
 	if(jQuery().isotope) {
 
 		// Needed variables
-		var list 		 = jQuery('.edina_tm_portfolio_list');
-		var filter		 = jQuery('.edina_tm_portfolio_filter');
+		var list 		 = jQuery('.vg_tm_portfolio_list');
+		var filter		 = jQuery('.vg_tm_portfolio_filter');
 
 		if(filter.length){
 			// Isotope Filter 
@@ -214,11 +214,11 @@ function edina_tm_portfolio(){
 	}
 }
 
-function edina_tm_portfolio_animation(){
+function vg_tm_portfolio_animation(){
 	
 	"use strict";
 	
-	var list			= jQuery('.edina_tm_portfolio_list > li');
+	var list			= jQuery('.vg_tm_portfolio_list > li');
 	
 	list.each(function(){
 		var el			= jQuery(this);
@@ -245,22 +245,22 @@ function edina_tm_portfolio_animation(){
 // --------------------    TOTOP    --------------------
 // -----------------------------------------------------
 
-function edina_tm_totop(){
+function vg_tm_totop(){
 	
 	"use strict";
 	
-	jQuery(".edina_tm_to_top_wrap").on('click', function(e) {
+	jQuery(".vg_tm_to_top_wrap").on('click', function(e) {
 		e.preventDefault();		
 		jQuery("html, body").animate({ scrollTop: 0 }, 'slow');
 		return false;
 	});
 }
 
-function edina_tm_totop_myhide(){
+function vg_tm_totop_myhide(){
 	
 	"use strict";
 	
-	var toTop			=jQuery(".edina_tm_to_top_wrap");
+	var toTop			=jQuery(".vg_tm_to_top_wrap");
 	if(toTop.length){
 		var topOffSet 	=toTop.offset().top;
 		
@@ -276,11 +276,11 @@ function edina_tm_totop_myhide(){
 // ------------    NAV BACKGROUND  SCROLL    -----------
 // -----------------------------------------------------
 
-function edina_tm_nav_bg_scroll(){
+function vg_tm_nav_bg_scroll(){
 	
 	"use strict";
 	
-	var header 			= jQuery('.edina_tm_header');
+	var header 			= jQuery('.vg_tm_header');
 	var windowScroll	= jQuery(window).scrollTop();
 	var W				= jQuery(window).width();
 	
@@ -300,7 +300,7 @@ function edina_tm_nav_bg_scroll(){
 // ------------    ANCHOR NAVIGATION    ----------------
 // -----------------------------------------------------
 
-function edina_tm_anchor(){
+function vg_tm_anchor(){
 	
 	"use strict";
 	
@@ -325,7 +325,7 @@ function edina_tm_anchor(){
 // ----------------    CONTACT FORM    -----------------
 // -----------------------------------------------------
 
-function edina_tm_contact_form(){
+function vg_tm_contact_form(){
 	
 	"use strict";
 	
@@ -371,11 +371,11 @@ function edina_tm_contact_form(){
 // --------------------    OWL CAROUSEL    -------------
 // -----------------------------------------------------
 
-function edina_tm_owl_carousel(){
+function vg_tm_owl_carousel(){
 	
 	"use strict";
 	
-	var carusel2			= jQuery('.edina_tm_testimonial_wrap .owl-carousel');
+	var carusel2			= jQuery('.vg_tm_testimonial_wrap .owl-carousel');
   	carusel2.owlCarousel({
 		loop:true,
 		margin:70,
@@ -394,7 +394,7 @@ function edina_tm_owl_carousel(){
 		}
 	});
 	
-	var carusel3			= jQuery('.edina_tm_partners_wrap .owl-carousel');
+	var carusel3			= jQuery('.vg_tm_partners_wrap .owl-carousel');
   	carusel3.owlCarousel({
 		loop:true,
 		margin:40,
@@ -424,14 +424,14 @@ function edina_tm_owl_carousel(){
 // ---------------    HERO TEXT ANIATION  --------------
 // -----------------------------------------------------
 
-function edina_tm_text_animation(){
+function vg_tm_text_animation(){
 	
 	"use strict";
 	
 	var H        			= jQuery(window).height();
-	var titleHolder			= jQuery('.edina_tm_universal_box_wrap .hero_title');
+	var titleHolder			= jQuery('.vg_tm_universal_box_wrap .hero_title');
 	var titleHeight			= titleHolder.outerHeight();
-	var headerHeight		= jQuery('.edina_tm_header').outerHeight();
+	var headerHeight		= jQuery('.vg_tm_header').outerHeight();
 	
 	var	height				= H/2 + titleHeight/2 - headerHeight;
 	
@@ -445,11 +445,11 @@ function edina_tm_text_animation(){
 // -------------   ANIMATE TEXT  -------------------
 // -------------------------------------------------
 
-function edina_tm_animate_text(){
+function vg_tm_animate_text(){
 	
 	"use strict";
 	
-	var animateSpan			= jQuery('.edina_tm_animation_text_word');
+	var animateSpan			= jQuery('.vg_tm_animation_text_word');
 	
 		animateSpan.typed({
 			strings: ["GRAPHIC DESIGNER", "PHOTOGRAPHER", "WEB DEVELOPER"],
@@ -463,10 +463,10 @@ function edina_tm_animate_text(){
 // -------------------    POPUP BLOG    ----------------
 // -----------------------------------------------------
 
-function edina_tm_popup_blog(){
+function vg_tm_popup_blog(){
 	"use strict";
-	var li				= jQuery('.edina_tm_list_wrap.blog_list .inner_list');
-	var popupBox		= jQuery('#edina_tm_popup_blog');
+	var li				= jQuery('.vg_tm_list_wrap.blog_list .inner_list');
+	var popupBox		= jQuery('#vg_tm_popup_blog');
 	var popupInner		= popupBox.find('.inner_popup');
 	var closePopup		= popupBox.find('.close');
 	
@@ -501,14 +501,14 @@ function edina_tm_popup_blog(){
 // -------------    BLOG MENU SCROLL -------------------
 // -----------------------------------------------------
 
-function edina_tm_popupscroll(){
+function vg_tm_popupscroll(){
 	
 	"use strict";
 	
 	var H				= jQuery(window).height();
 	var scrollable		= jQuery('.scrollable');
 	
-	var popupBox		= jQuery('.edina_tm_popup_blog .inner_popup');
+	var popupBox		= jQuery('.vg_tm_popup_blog .inner_popup');
 	
 	popupBox.css({height:H-100});
 	
