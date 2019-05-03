@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="95806602-5b33-4373-88e2-3af798f4bed6" name="Default Changelist" comment="Спасибо Envato Market :)">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="95806602-5b33-4373-88e2-3af798f4bed6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/hero/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/hero/1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/init.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/init.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/logo/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/logo/logo.png" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,8 +25,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="686">
-              <caret line="561" column="22" selection-start-line="561" selection-start-column="22" selection-end-line="561" selection-end-column="22" />
+            <state relative-caret-position="340">
+              <caret line="152" column="14" lean-forward="true" selection-start-line="152" selection-start-column="14" selection-end-line="152" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -138,7 +135,7 @@
       <workItem from="1555944304063" duration="7010000" />
       <workItem from="1556001755217" duration="235000" />
       <workItem from="1556823724952" duration="1325000" />
-      <workItem from="1556866119144" duration="2118000" />
+      <workItem from="1556866119144" duration="2496000" />
     </task>
     <task id="LOCAL-00001" summary="Создана структура будущей страницы">
       <created>1555773883923</created>
@@ -168,14 +165,22 @@
       <option name="project" value="LOCAL" />
       <updated>1556824335605</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Замениз баграунд на первой секции">
+      <created>1556868663603</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1556868663603</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12128000" />
+    <option name="totallyTimeSpent" value="12506000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18976545" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -206,7 +211,8 @@
     <MESSAGE value="Добавлена первая линия" />
     <MESSAGE value="Сверстана первая секция // остается вопрос по сочетанию шрифтов" />
     <MESSAGE value="Спасибо Envato Market :)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Спасибо Envato Market :)" />
+    <MESSAGE value="Замениз баграунд на первой секции" />
+    <option name="LAST_COMMIT_MESSAGE" value="Замениз баграунд на первой секции" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/libs/fancybox/jquery.fancybox.min.js" />
@@ -237,8 +243,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="686">
-          <caret line="561" column="22" selection-start-line="561" selection-start-column="22" selection-end-line="561" selection-end-column="22" />
+        <state relative-caret-position="340">
+          <caret line="152" column="14" lean-forward="true" selection-start-line="152" selection-start-column="14" selection-end-line="152" selection-end-column="14" />
         </state>
       </provider>
     </entry>

@@ -152,6 +152,12 @@ img.svg{
 	left: 0px;
 	top: -3px;
 }
+
+.logo a img {
+	width: 37px;
+	height: auto;
+}
+
 .vg_tm_navigation_wrap .nav_list_wrap{
 	width: 100%;
 	height: auto;
