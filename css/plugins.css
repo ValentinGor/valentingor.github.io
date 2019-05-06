@@ -1,5 +1,5 @@
 /*
-This file is made by Marketify (2017)
+This file is made by Valentin Gorbatenko (2019)
 This css file includes all base styles and template's main color (in this tempalte main color is pink(#f00a77)). 
 Template's main color styles located at the bottom of this file.
 
@@ -483,9 +483,9 @@ input[type="button"]{
 
 /*
 * 	Responsive grid pixel system - v1.1
-* 	Copyright 2017, FriendsLaboratory
+* 	Copyright 2019, FriendsLaboratory
 *   Author: FriendsLaboratory
-* 	Created Date : 01-01-2017
+* 	Created Date : 01-01-2019
 */
 .clearfix{
   *zoom: 1;
