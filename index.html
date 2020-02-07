@@ -1,703 +1,436 @@
-<!DOCTYPE html>
-<!--[if lt IE 7 ]>
-<html class="ie ie6" lang="ru"> <![endif]-->
-<!--[if IE 7 ]>
-<html class="ie ie7" lang="ru"> <![endif]-->
-<!--[if IE 8 ]>
-<html class="ie ie8" lang="ru"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!-->
-<html lang="ru"> <!--<![endif]-->
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <meta name="description" content="Валентин Горбатенко - персональная страница">
-    <meta name="author" content="Валентин Горбатенко">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <title>Валентин Горбатенко - разработка сайтов</title>
-    <!-- STYLES -->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/plugins.css"/>
-    <link rel="stylesheet" type="text/css" href="css/style.css"/>
-    <!--[if lt IE 9]>
-    <script type="text/javascript" src="js/modernizr.custom.js"></script> <![endif]-->
-    <!-- /STYLES -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Digital Designer</title>
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/glacial-indifference" type="text/css" />
+    <link rel="stylesheet" href="css/themify-icons.css">
+    <link rel="stylesheet" href="css/et-lineicons.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/main.css">
 </head>
+
 <body>
-
-<!-- WRAPPER ALL -->
-<div class="vg_tm_wrapper_all">
-
-    <div id="vg_tm_popup_blog">
-        <div class="container">
-            <div class="inner_popup scrollable"></div>
-        </div>
-        <span class="close"><a href="#"></a></span>
+    <!-- Preloader -->
+    <div id="loader" class="preloader preloader-bg"> <span class="loading">
+            <span class="progress">
+                <span class="bar-loading"></span> 
+            </span>
+        </span>
     </div>
-
-    <!-- HEADER -->
-    <header class="vg_tm_header">
-        <div class="vg_tm_navigation_wrap">
+    <!-- Mobile Menu -->
+    <div class="body-overlay"></div>
+    <div id="box-mobile-menu" class="box-mobile-menu"> <a href="javascript:void(0);" id="back-menu" class="back-menu"><i class="ti-angle-left"></i></a> <span class="box-title"><img src="img/logo.png" alt="Rudy Bond"></span>
+        <a href="javascript:void(0);" class="close-menu"></a>
+        <div class="box-inner"></div>
+    </div>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg" id="header">
+        <div class="container">
+            <!-- Logo -->
+            <a class="logo" href="index.html"> <img src="img/logo.png" alt="Rudy Bond"> </a>
+            <a class="menu-bar mobile-navigation" href="javascript:void(0)"> <span class="menu-btn-icon"><span></span> <span></span><span></span></span>
+            </a>
+            <!-- Navigation -->
+            <nav id="primary-navigation" class="site-navigation">
+                <div class="main-menu-wrapper"></div>
+                <div id="navbarSupportedContent" class="main-navigation" data-width="1007">
+                    <ul id="menu-main-menu" class="nav menu-nav clone-main-menu main-menu">
+                        <li class="nav-item menu-item page-active"> <a class="nav-link active" href="index.html#" data-scroll-nav="0">Home</a></li>
+                        <li class="nav-item menu-item"> <a class="nav-link" href="index.html#" data-scroll-nav="1">About</a> </li>
+                        <li class="nav-item menu-item"> <a class="nav-link" href="index.html#" data-scroll-nav="2">Services</a> </li>
+                        <li class="nav-item menu-item"> <a class="nav-link" href="index.html#" data-scroll-nav="3">Works</a> </li>
+                        <li class="nav-item menu-item"> <a class="nav-link" href="index.html#" data-scroll-nav="4">News</a> </li>
+                        <li class="nav-item menu-item"> <a class="nav-link" href="index.html#" data-scroll-nav="5">Contact</a> </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </nav>
+        <!-- Homepage -->
+        <section id="home" class="hero-img" data-scroll-index="0">
             <div class="container">
-                <div class="navigation_inner">
-                    <div class="logo">
-                        <a class="dark_logo" href="index.html"><img src="img/logo/logo.svg" alt="logo"/></a>
-                    </div>
-                    <div class="nav_list_wrap">
-                        <div class="menu">
-                            <ul class="anchor_nav">
-                                <li><a href="#home">Home</a></li>
-                                <li><a href="#about">Обо мне</a></li>
-                                <li><a href="#services">Услуги</a></li>
-                                <li><a href="#portfolio">Портфолио</a></li>
-                                <li><a href="#testimonials">Testimonials</a></li>
-                                <li><a href="#news">News</a></li>
-                                <li><a href="#contact">Contact</a></li>
-                            </ul>
-                        </div>
-                        <div class="social_icons_wrap">
-                            <ul>
-                                <li><a href="#"><i class="xcon-facebook"></i></a></li>
-                                <li><a href="#"><i class="xcon-twitter"></i></a></li>
-                                <li><a href="#"><i class="xcon-linkedin"></i></a></li>
-                                <li><a href="#"><i class="xcon-behance"></i></a></li>
-                            </ul>
+                <div class="display-table">
+                    <div class="table-cell">
+                        <div class="rudy-hero-content">
+                            <p>Hi there, I’m Rudy</p>
+                            <h1>Digital Designer.</h1>
+                            <button class="rudy-btn2" type="submit">Get in touch</button>
                         </div>
                     </div>
-                    <div class="vg_tm_trigger">
-                        <div class="hamburger hamburger--collapse-r">
-                            <div class="hamburger-box">
-                                <div class="hamburger-inner"></div>
+                </div>
+            </div>
+        </section>
+        <!-- About -->
+        <section id="about" class="rudy-about-section" data-scroll-index="1">
+            <div class="container">
+                <div class="rudy-about-wrapper">
+                    <div class="row">
+                        <div class="col-md-10 offset-md-1">
+                            <h2>About Me.</h2>
+                        </div>
+                        <div class="col-md-5 offset-md-1">
+                            <div class="rudy-about-head">
+                                <p>Hi, I’m Rudy Bond and <b>I am designer & developer</b> who dream making the world better place by creating captivating products. I am also very active for international clients.</p>
+                                <p><span class="ti-check"></span> Available for new projects</p>
+                                <ul class="rudy-about-social-link">
+                                    <li><a href="index.html#"><i class="ti-dribbble"></i></a></li>
+                                    <li><a href="index.html#"><i class="ti-instagram"></i></a></li>
+                                    <li><a href="index.html#"><i class="ti-skype"></i></a></li>
+                                    <li><a href="index.html#"><i class="ti-linkedin"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-2 offset-md-1">
+                            <div class="rudy-about-items">
+                                <p><b>Design</b></p>
+                                <p>Web Design</p>
+                                <p>Prototyping</p>
+                                <p>Branding</p>
+                                <p>Illustration</p>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="rudy-about-items">
+                                <p><b>Development</b></p>
+                                <p>Websites</p>
+                                <p>Native Apps</p>
+                                <p>WordPress</p>
+                                <p>eCommerce</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="vg_tm_mobile_menu_wrap">
-            <div class="mob_menu">
-                <ul class="anchor_nav">
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">Обо мне</a></li>
-                    <li><a href="#services">Услуги</a></li>
-                    <li><a href="#portfolio">Портфолио</a></li>
-                    <li><a href="#testimonials">Testimonials</a></li>
-                    <li><a href="#news">News</a></li>
-                    <li><a href="#contact">Contact</a></li>
+        </section>
+        <!-- Services -->
+        <section id="services" class="padding" data-scroll-index="2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="title mb-40"> <span>What I Do</span>
+                            <h2>Services.</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="rudy-services-container">
+                            <div class="rudy-services-img-area"><i class="et-tools"></i></div>
+                            <div class="rudy-services-area">
+                                <h4 class="rudy-services-heading">Web Design</h4>
+                                <p>Dolores sit ipsum velit purus aliquet, massa fringilla leo the drana.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="rudy-services-container">
+                            <div class="rudy-services-img-area"> <i class="et-browser"></i></div>
+                            <div class="rudy-services-area">
+                                <h4 class="rudy-services-heading">Web Development</h4>
+                                <p>Dolores sit ipsum velit purus aliquet, massa fringilla leo the drana.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="rudy-services-container">
+                            <div class="rudy-services-img-area"><i class="et-chat"></i></div>
+                            <div class="rudy-services-area">
+                                <h4 class="rudy-services-heading">Social Media</h4>
+                                <p>Dolores sit ipsum velit purus aliquet, massa fringilla leo the drana.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="rudy-services-container">
+                            <div class="rudy-services-img-area"><i class="et-strategy"></i></div>
+                            <div class="rudy-services-area">
+                                <h4 class="rudy-services-heading">Prototyping</h4>
+                                <p>Dolores sit ipsum velit purus aliquet, massa fringilla leo the drana.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="rudy-services-container">
+                            <div class="rudy-services-img-area"> <i class="et-lightbulb"></i></div>
+                            <div class="rudy-services-area">
+                                <h4 class="rudy-services-heading">Brand Identity</h4>
+                                <p>Dolores sit ipsum velit purus aliquet, massa fringilla leo the drana.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="rudy-services-container">
+                            <div class="rudy-services-img-area"><i class="et-search"></i></div>
+                            <div class="rudy-services-area">
+                                <h4 class="rudy-services-heading">SEO Optimization</h4>
+                                <p>Dolores sit ipsum velit purus aliquet, massa fringilla leo the drana.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Works -->
+        <section id="works" class="padding" data-scroll-index="3">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="title mb-40"> <span>Portfolio</span>
+                            <h2>Creative Works.</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <a href="projectpage.html" class="desc">
+                            <div class="rudy-works"> <img src="img/portfolio/01.jpg" class="img-fluid" alt="">
+                                <div class="desc">
+                                    <div class="con">
+                                        <h3>Website</h3> <span>House at Khlebny</span>
+                                        <p><i class="ti-arrow-right"></i></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4">
+                        <a href="projectpage.html" class="desc">
+                            <div class="rudy-works"> <img src="img/portfolio/02.jpg" class="img-fluid" alt="">
+                                <div class="desc">
+                                    <div class="con">
+                                        <h3>Photo Shooting</h3> <span>Precious Magazine</span>
+                                        <p><i class="ti-arrow-right"></i></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4">
+                        <a href="projectpage.html" class="desc">
+                            <div class="rudy-works"> <img src="img/portfolio/03.jpg" class="img-fluid" alt="">
+                                <div class="desc">
+                                    <div class="con">
+                                        <h3>Packaging</h3> <span>El Matate - Chocolate</span>
+                                        <p><i class="ti-arrow-right"></i></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4">
+                        <a href="projectpage.html" class="desc">
+                            <div class="rudy-works"> <img src="img/portfolio/04.jpg" class="img-fluid" alt="">
+                                <div class="desc">
+                                    <div class="con">
+                                        <h3>Illustrations</h3> <span>Cycling illos</span>
+                                        <p><i class="ti-arrow-right"></i></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4">
+                        <a href="projectpage.html" class="desc">
+                            <div class="rudy-works"> <img src="img/portfolio/05.jpg" class="img-fluid" alt="">
+                                <div class="desc">
+                                    <div class="con">
+                                        <h3>Kinfolk</h3> <span>Adobe InDesign</span>
+                                        <p><i class="ti-arrow-right"></i></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4">
+                        <a href="projectpage.html" class="desc">
+                            <div class="rudy-works"> <img src="img/portfolio/08.jpg" class="img-fluid" alt="">
+                                <div class="desc">
+                                    <div class="con">
+                                        <h3>Eight</h3> <span>Adobe Illustration</span>
+                                        <p><i class="ti-arrow-right"></i></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Testimonials -->
+        <section id="testimonial" class="rudy-testimonial padding">
+            <div class="container">
+                <div class="row">
+                    <div class="owl-carousel owl-theme col-md-12">
+                        <div class="item">
+                            <div class="row">
+                                <div class="rudy-testimonial-img col-md-4 bg-img" data-background="img/references/01.jpg"></div>
+                                <div class="cont col-md-8">
+                                    <div class="title mb-40"> <span>Testimonials</span>
+                                        <h2>What Clients Say.</h2>
+                                    </div>
+                                    <p>" Vivamus pulvinar ullamcorper est sed egestas. Integer vitae erat tempor interdum lacaliquam felis. Praesent hendrerit eros et arcu aliquet ornare. Nam egestas comodi dignissim. Duis tempor ipsum vitae nisl dapibus, vitae interdum massa hendrerio. The corhoncus orci ut eros tristique vulputate. "</p>
+                                    <div class="info">
+                                        <p>—</p> <span>John Brown</span>
+                                        <p>CEO at Vivense</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="row">
+                                <div class="rudy-testimonial-img col-md-4 bg-img" data-background="img/references/02.jpg"></div>
+                                <div class="cont col-md-8">
+                                    <div class="title mb-40"> <span>Testimonials</span>
+                                        <h2>What Clients Say.</h2>
+                                    </div>
+                                    <p>" Praesent pulvinar ullamcorper est sed egestas. Integer vitae erat tempor interdum lacaliquam felis. Vivamus hendrerit eros et arcu aliquet ornare. Nam egestas comodi dignissim. Duis tempor ipsum vitae nisl dapibus, vitae interdum massa hendrerio. The corhoncus orci ut eros tristique vulputate. "</p>
+                                    <div class="info">
+                                        <p>—</p> <span>Grill Juston</span>
+                                        <p>CEO at TechPark</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- News -->
+        <section id="blog" class="rudy-blog padding" data-scroll-index="4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="title mb-40"> <span>Read</span>
+                            <h2>Blog & News.</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="owl-carousel owl-theme">
+                            <div class="item mb-40">
+                                <div class="position-re o-hidden"> <img src="img/blog/1.jpg" alt=""> </div>
+                                <div class="con"> <span class="category">
+                                        <a href="blog.html">Travel</a>
+                                    </span>
+                                    <h5><a href="post.html">Vivense intergeum egestas</a></h5> <a href="post.html"><i class="ti-arrow-right"></i></a>
+                                </div>
+                            </div>
+                            <div class="item mb-40">
+                                <div class="position-re o-hidden"> <img src="img/blog/2.jpg" alt=""> </div>
+                                <div class="con"> <span class="category">
+                                        <a href="blog.html">Branding</a>
+                                    </span>
+                                    <h5><a href="post.html">Hendrerio egestas vitate</a></h5> <a href="post.html"><i class="ti-arrow-right"></i></a>
+                                </div>
+                            </div>
+                            <div class="item mb-40">
+                                <div class="position-re o-hidden"> <img src="img/blog/3.jpg" alt=""> </div>
+                                <div class="con"> <span class="category">
+                                        <a href="blog.html">Art</a>
+                                    </span>
+                                    <h5><a href="post.html">Vivamus vivense dapibus</a></h5> <a href="post.html"><i class="ti-arrow-right"></i></a>
+                                </div>
+                            </div>
+                            <div class="item mb-40">
+                                <div class="position-re o-hidden"> <img src="img/blog/5.jpg" alt=""> </div>
+                                <div class="con"> <span class="category">
+                                        <a href="blog.html">Media</a>
+                                    </span>
+                                    <h5><a href="post.html">Vivamus egestas ullamcorper</a></h5> <a href="post.html"><i class="ti-arrow-right"></i></a>
+                                </div>
+                            </div>
+                            <div class="item mb-40">
+                                <div class="position-re o-hidden"> <img src="img/blog/4.jpg" alt=""> </div>
+                                <div class="con"> <span class="category">
+                                        <a href="blog.html">Travel</a>
+                                    </span>
+                                    <h5><a href="post.html">Ullamcorper vitate integers</a></h5> <a href="post.html"><i class="ti-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 mt-40 text-center">
+                        <a href="blog.html"><button class="rudy-btn2">All Archive</button></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Clients -->
+        <div id="clients" class="rudy-client-section">
+            <div class="container">
+                <ul id="rudy-client-carousel" class="rudy-client-items owl-carousel">
+                    <li class="rudy-client-item"> <img src="img/clients/logo_google.png" alt=""> </li>
+                    <li class="rudy-client-item"> <img src="img/clients/logo_adobe.png" alt=""> </li>
+                    <li class="rudy-client-item"> <img src="img/clients/logo_bloom.png" alt=""> </li>
+                    <li class="rudy-client-item"> <img src="img/clients/logo_huawei.png" alt=""> </li>
+                    <li class="rudy-client-item"> <img src="img/clients/logo_paypal.png" alt=""> </li>
+                    <li class="rudy-client-item"> <img src="img/clients/logo_vmware.png" alt=""> </li>
                 </ul>
             </div>
         </div>
-    </header>
-    <!-- /HEADER -->
-
-    <!-- CONTENT -->
-    <div class="vg_tm_content">
-
-        <!-- HERO -->
-        <div class="vg_tm_section" id="home">
-            <div class="vg_tm_hero_header">
-                <div class="vg_tm_universal_box_wrap">
-                    <div class="bg_wrap">
-                        <div class="overlay_image hero jarallax" data-speed="0"></div>
-                        <div class="overlay_video"></div>
-                        <div class="overlay_color hero"></div>
-                    </div>
-                    <div class="content hero">
-                        <div class="container hero">
-                            <div class="hero_title">
-                                <img src="img/hero/image.png" alt=""/>
-                            </div>
-                            <div class="hero_info">
-                                <div class="hero_info_text">Создание тем WordPress</div>
-                                <div class="hero_info_text">Разработка сайтов</div>
-                                <div class="hero_info_text">UX UI Design</div>
-                            </div>
-                        </div>
-                        <div class="vg_tm_discover_wrap anchor">
-							<span>
-								<a href="#about">Вниз</a>
-							</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- /HERO -->
-
-        <!-- ABOUT -->
-        <div class="vg_tm_section" id="about">
+        <!-- Banner -->
+        <section class="rudy-banner rudy-section-padding bg-img bg-fixed" data-background="img/hero-bg.jpg" data-scroll-index="5">
             <div class="container">
-                <div class="vg_tm_main_title_holder_wrap about">
-                    <div class="number_wrap">
-                        <span>01</span>
-                    </div>
-                    <div class="title_wrap">
-                        <span>Обо мне</span>
-                    </div>
-                </div>
-                <div class="vg_tm_about_wrap">
-                    <div class="author_wrap">
-                        <div class="leftbox"></div>
-                        <div class="rightbox">
-                            <div class="name_holder">
-                                <h3>Валентин Горбатенко</h3>
-                            </div>
-                            <div class="definition">
-                                <p>Привет! Меня зовут Валентин. Я делаю сайты, и я очень увлечен и предан своей работе. Имея 5-летний опыт работы в качестве профессионального разработчика,
-                                    я приобрел навыки и знания, необходимые для успеха Вашего проекта.</p>
-                                <p>Мне нравится каждый шаг процесса создания сайта, от обсуждения и совместной работы до концепции и исполнения, я нахожу наиболее подходящее решение для того, чтобы
-                                    сделать Вам сайт. Посмотрите на мои работы, и если вы хотите обсудить свой проект, пожалуйста, дайте мне знать. Учитывая мои годы проведенные в процессе разработки
-                                    сайтов и опыт работы профессиональным веб-разработчиком / графическим дизайнером Я приобрел навыки и знания, необходимые для успеха Вашего проекта!</p>
-                            </div>
-                            <div class="sharebox">
-                                <ul>
-                                    <li class="wow fadeIn" data-wow-duration="1.2s"><span>Share:</span></li>
-                                    <li class="wow fadeIn" data-wow-duration="1.2s" data-wow-delay="0.2s"><a href="#"><i class="xcon-facebook"></i></a></li>
-                                    <li class="wow fadeIn" data-wow-duration="1.2s" data-wow-delay="0.4s"><a href="#"><i class="xcon-twitter"></i></a></li>
-                                    <li class="wow fadeIn" data-wow-duration="1.2s" data-wow-delay="0.6s"><a href="#"><i class="xcon-linkedin"></i></a></li>
-                                    <li class="wow fadeIn" data-wow-duration="1.2s" data-wow-delay="0.8s"><a href="#"><i class="xcon-instagram"></i></a></li>
-                                    <li class="wow fadeIn" data-wow-duration="1.2s" data-wow-delay="1s"><a href="#"><i class="xcon-pinterest"></i></a></li>
-                                </ul>
-                            </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="text-center">
+                            <h2>Do you like my work?</h2>
+                            <h5>Let’s work together!</h5>
+                            <button class="rudy-btn2" type="submit">Get in touch</button>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <!-- /ABOUT -->
-
-        <!-- SERVICES -->
-        <div class="vg_tm_section" id="services">
-            <div class="vg_tm_services_total_wrap">
-                <div class="container">
-                    <div class="vg_tm_main_title_holder_wrap">
-                        <div class="number_wrap">
-                            <span>02</span>
-                        </div>
-                        <div class="title_wrap">
-                            <span>Услуги</span>
-                        </div>
-                    </div>
-                    <div class="vg_tm_services_wrap">
-                        <div class="vg_tm_list_wrap" data-column="3" data-space="70">
-                            <ul class="total">
-                                <li class="wow fadeIn" data-wow-duration="1.2s">
-                                    <div class="inner_list">
-                                        <div class="service_icon">
-                                            <img class="svg" src="img/svg/wordpress.svg" alt="img"/>
-                                        </div>
-                                        <div class="service_title">
-                                            <h3>Создание тем Wordpress</h3>
-                                        </div>
-                                        <div class="service_definition">
-                                            <p>Я делаю темы по принципу - " создания собственного шаблона на каджую страницу " с минимальным применениям сторонних плагинов, что дает высокую скорость загрузки
-                                                самого сайта</p>
-                                        </div>
-                                        <span class="first"></span>
-                                        <span class="second"></span>
-                                    </div>
-                                </li>
-                                <li class="wow fadeIn" data-wow-duration="1.2s" data-wow-delay="0.2s">
-                                    <div class="inner_list">
-                                        <div class="service_icon">
-                                            <img class="svg" src="img/svg/web.svg" alt="img"/>
-                                        </div>
-                                        <div class="service_title">
-                                            <h3>Разработка сайтов</h3>
-                                        </div>
-                                        <div class="service_definition">
-                                            <p>Я делаю сайты не только на CMS Worpress, а также и кастомные решения которые включают в себя создания структуры базы данных и построения взаимодействия с
-                                                пользователем</p>
-                                        </div>
-                                        <span class="first"></span>
-                                        <span class="second"></span>
-                                    </div>
-                                </li>
-                                <li class="wow fadeIn" data-wow-duration="1.2s" data-wow-delay="0.4s">
-                                    <div class="inner_list">
-                                        <div class="service_icon">
-                                            <img class="svg" src="img/svg/desing.svg" alt="img"/>
-                                        </div>
-                                        <div class="service_title">
-                                            <h3>UX UI Design</h3>
-                                        </div>
-                                        <div class="service_definition">
-                                            <p>Я как разработчик понимаю, что взаимодействия пользователя с сайтом необходимо продумать не только " цвет кнопочек ", а также и последовательность действий
-                                                от начала до результата</p>
-                                        </div>
-                                        <span class="first"></span>
-                                        <span class="second"></span>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
+        </section>
+    <!-- Footer -->
+    <footer class="rudy-footer-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="brand"> Rudy<span>.</span></div>
                 </div>
-            </div>
-        </div>
-        <!-- /SERVICES -->
-
-        <!-- PORTFOLIO -->
-        <div class="vg_tm_section" id="portfolio">
-            <div class="container">
-                <div class="vg_tm_portfolio_wrap">
-                    <div class="vg_tm_main_title_holder_wrap portfolio">
-                        <div class="number_wrap">
-                            <span>03</span>
-                        </div>
-                        <div class="title_wrap">
-                            <span>Портфолио</span>
-                        </div>
-                    </div>
-                    <ul class="vg_tm_portfolio_filter">
-                        <li><a href="#" class="current" data-filter="*">All</a></li>
-                        <li><a href="#" data-filter=".design">Design</a></li>
-                        <li><a href="#" data-filter=".photography">Photography</a></li>
-                        <li><a href="#" data-filter=".development">Development</a></li>
-                    </ul>
-                    <ul class="vg_tm_portfolio_list gallery_zoom">
-                        <li class="design">
-                            <div class="list_inner">
-                                <div class="image_wrap">
-                                    <img src="img/portfolio/600x600.jpg" alt=""/>
-                                    <div class="main_image"></div>
-                                </div>
-                                <div class="definition_portfolio">
-                                    <span class="first"><a class="zoom" href="img/portfolio/5.jpg">Title of project</a></span>
-                                    <span class="second">Category</span>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="photography">
-                            <div class="list_inner">
-                                <div class="image_wrap">
-                                    <img src="img/portfolio/600x600.jpg" alt=""/>
-                                    <div class="main_image"></div>
-                                </div>
-                                <div class="definition_portfolio">
-                                    <span class="first"><a class="zoom" href="img/portfolio/2.jpg">Title of project</a></span>
-                                    <span class="second">Category</span>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="development">
-                            <div class="list_inner">
-                                <div class="image_wrap">
-                                    <img src="img/portfolio/600x600.jpg" alt=""/>
-                                    <div class="main_image"></div>
-                                </div>
-                                <div class="definition_portfolio">
-                                    <span class="first"><a class="zoom" href="img/portfolio/3.jpg">Title of project</a></span>
-                                    <span class="second">Category</span>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="photography">
-                            <div class="list_inner">
-                                <div class="image_wrap">
-                                    <img src="img/portfolio/600x600.jpg" alt=""/>
-                                    <div class="main_image"></div>
-                                </div>
-                                <div class="definition_portfolio">
-                                    <span class="first"><a class="zoom" href="img/portfolio/4.jpg">Title of project</a></span>
-                                    <span class="second">Category</span>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="design">
-                            <div class="list_inner">
-                                <div class="image_wrap">
-                                    <img src="img/portfolio/600x600.jpg" alt=""/>
-                                    <div class="main_image"></div>
-                                </div>
-                                <div class="definition_portfolio">
-                                    <span class="first"><a class="zoom" href="img/portfolio/6.jpg">Title of project</a></span>
-                                    <span class="second">Category</span>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="photography">
-                            <div class="list_inner">
-                                <div class="image_wrap">
-                                    <img src="img/portfolio/600x600.jpg" alt=""/>
-                                    <div class="main_image"></div>
-                                </div>
-                                <div class="definition_portfolio">
-                                    <span class="first"><a class="zoom" href="img/portfolio/7.jpg">Title of project</a></span>
-                                    <span class="second">Category</span>
-                                </div>
-                            </div>
-                        </li>
+                <div class="col-md-3">
+                    <p><b>Get in touch</b>
+                        <br />info@rudybond.com</p>
+                </div>
+                <div class="col-md-3">
+                    <p><b>Locations</b>
+                        <br />San Francisco — Portland</p>
+                </div>
+                <div class="col-md-3">
+                    <ul class="rudy-footer-social-link">
+                        <li><a href="index.html#"><i class="ti-dribbble"></i></a></li>
+                        <li><a href="index.html#"><i class="ti-instagram"></i></a></li>
+                        <li><a href="index.html#"><i class="ti-skype"></i></a></li>
+                        <li><a href="index.html#"><i class="ti-linkedin"></i></a></li>
                     </ul>
                 </div>
             </div>
         </div>
-        <!-- /PORTFOLIO -->
-
-        <!-- TESTIMONIALS -->
-        <div class="vg_tm_section" id="testimonials">
-            <div class="vg_tm_testimonial_wrap">
-                <div class="vg_tm_universal_box_wrap">
-                    <div class="bg_wrap hero">
-                        <div class="overlay_image testimonial jarallax" data-speed="0"></div>
-                        <div class="overlay_color testimonial"></div>
-                    </div>
-                    <div class="content testimonial">
-                        <div class="vg_tm_main_title_holder_wrap testimonial">
-                            <div class="number_wrap">
-                                <span>04</span>
-                            </div>
-                            <div class="title_wrap">
-                                <span>Testimonials</span>
-                            </div>
-                        </div>
-                        <div class="container">
-                            <div class="carousel_wrap">
-                                <ul class="owl-carousel">
-                                    <li class="item">
-                                        <div class="inner">
-                                            <div class="image_holder">
-                                                <img src="img/clients/1.jpg" alt=""/>
-                                            </div>
-                                            <div class="definition">
-                                                <p>vg team are easy to work with and helped me make amazing websites in a short amount of time. Thanks guys for all your hard work.</p>
-                                            </div>
-                                            <div class="svg_wrap">
-                                                <i class="xcon-quote-left"></i>
-                                            </div>
-                                            <div class="name_holder_wrap">
-                                                <span class="name">Antonio Baraley</span>
-                                                <span class="job">CEO Founder</span>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li class="item">
-                                        <div class="inner">
-                                            <div class="image_holder">
-                                                <img src="img/clients/2.jpg" alt=""/>
-                                            </div>
-                                            <div class="definition">
-                                                <p>We were looking for a logo with a touch of modernism. vg grasped our needs and produced a stunning design.</p>
-                                            </div>
-                                            <div class="svg_wrap">
-                                                <i class="xcon-quote-left"></i>
-                                            </div>
-                                            <div class="name_holder_wrap">
-                                                <span class="name">Calena Gomez</span>
-                                                <span class="job">AOC Designer</span>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li class="item">
-                                        <div class="inner">
-                                            <div class="image_holder">
-                                                <img src="img/clients/3.jpg" alt=""/>
-                                            </div>
-                                            <div class="definition">
-                                                <p>Awesome to work with vg. Incredibly organized, easy to communicate with, responsive with next iterations.</p>
-                                            </div>
-                                            <div class="svg_wrap">
-                                                <i class="xcon-quote-left"></i>
-                                            </div>
-                                            <div class="name_holder_wrap">
-                                                <span class="name">Torren Winston</span>
-                                                <span class="job">Photographer</span>
-                                            </div>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- /TESTIMONIALS -->
-
-        <!-- NEWS -->
-        <div class="vg_tm_section" id="news">
-            <div class="vg_tm_news_wrap">
-                <div class="container">
-                    <div class="vg_tm_main_title_holder_wrap news">
-                        <div class="number_wrap">
-                            <span>05</span>
-                        </div>
-                        <div class="title_wrap">
-                            <span>Latest News</span>
-                        </div>
-                    </div>
-                    <div class="vg_tm_list_wrap blog_list" data-column="3" data-space="30">
-                        <ul class="total">
-                            <li class="wow fadeInUp" data-wow-duration="1.2s">
-                                <div class="inner_list">
-                                    <div class="image_wrap">
-                                        <img class="small" src="img/blog/500x350.jpg" alt=""/>
-                                        <img class="big" src="img/blog/1170x450.jpg" alt=""/>
-                                        <div class="news_image" data-url="img/blog/1.jpg"></div>
-                                        <a class="link_news" href="index.html"></a>
-                                    </div>
-                                    <div class="definitions_wrap">
-                                        <div class="date_wrap">
-                                            <p>January 22, 2018 <a href="index.html">Logos</a></p>
-                                        </div>
-                                        <div class="title_holder">
-                                            <h3><a href="index.html">How to Create Great Logo for Your Business</a></h3>
-                                        </div>
-                                        <div class="definition">
-                                            <p>If you are reading this, you probably plan to start a small business or a side hustle very soon. And you probably have a couple ...</p>
-                                        </div>
-                                        <div class="full_def">
-                                            <p>If you are reading this, you probably plan to start a small business or a side hustle very soon. And you probably have a couple of questions running
-                                                through your mind like: Do I really need that logo? Or Yep, I really need one. But how can I get it on a budget? This post was created to help you bring
-                                                system out of confusion so you can get the best out of your business and enter the market full force. First of all, yes, you do need a logo, and it does
-                                                not really matter how big or small your business is. Even if you making a craft soap and sell it to your relatives and friends, you still need a logo.
-                                                If you plan to monetize an idea, you need a logo for it. Otherwise your work, your efforts, your image and your future brand belong to everyone, like
-                                                grapes at a grocery store. But most importantly, the final design you come up with should be effective enough to promote your business and get you that
-                                                place in the sun. Here are a few tips that will make the whole process easier and more fun. The first step to a killer logo is an idea. So start feeding
-                                                your brain with new impressions and experiences. Use anything that works for you. Try hiking and gain inspiration from nature. Or visit an art gallery.
-                                                Meditation, photography, action sports In a nutshell, any kind of activity that fills you up with energy and joy may help you get that revolutionary
-                                                idea. It is always useful to browse the websites (or social media profiles) of your potential rivals to not only judge their logos but to practice
-                                                analysis. Do you find your competitor logo effective or attractive? Try to think of the ways it helps the rival company to be profitable. Is there
-                                                something you would change? Why? All of these questions can really help you to improve your own perception of your brand as well as the future marketing
-                                                strategy. Find out what the strengths and weaknesses of your rivals are and benefit from that knowledge. When it comes to logo design, there are and
-                                                always will be several safe choices like bold and elegant black and white logos or serif font wordmarks. But if you are striving to get that killer
-                                                logo, do not be afraid to cross the line and try something rebellious. Go out there and get to know the latest design trends. For example, you may
-                                                experiment with the bold colors like Ultra Violet, which is the Pantone color of the year, by the way. Or play with the typography and color
-                                                gradients.</p>
-                                        </div>
-                                        <div class="vg_tm_popup_share_wrap">
-                                            <ul>
-                                                <li><a href="#">Facebook</a></li>
-                                                <li><a href="#">Twitter</a></li>
-                                                <li><a href="#">Linkedin</a></li>
-                                                <li><a href="#">Behance</a></li>
-                                            </ul>
-                                        </div>
-                                        <div class="read_more">
-                                            <a href="#"><span>Read More</span></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="wow fadeInUp" data-wow-duration="1.2s" data-wow-delay="0.2s">
-                                <div class="inner_list">
-                                    <div class="image_wrap">
-                                        <img class="small" src="img/blog/500x350.jpg" alt=""/>
-                                        <img class="big" src="img/blog/1170x450.jpg" alt=""/>
-                                        <div class="news_image" data-url="img/blog/2.jpg"></div>
-                                        <a class="link_news" href="index.html"></a>
-                                    </div>
-                                    <div class="definitions_wrap">
-                                        <div class="date_wrap">
-                                            <p>February 07, 2018 <a href="index.html">Illustrator</a></p>
-                                        </div>
-                                        <div class="title_holder">
-                                            <h3><a href="index.html">How to Autumn Clean Your Design Career?</a></h3>
-                                        </div>
-                                        <div class="definition">
-                                            <p>Spring cleaning is not just about washing windows and clearing away cobwebs. Your design career also needs a thorough ...</p>
-                                        </div>
-                                        <div class="full_def">
-                                            <p>Whether you are a freelancer or an in-house designer, or at a studio or agency, you will probably have to rebrand at the and Whether you are a freelancer
-                                                or an in-house designer, or at a studio or agency, you will probably have to rebrand at the and Whether yo are a freelancer or an in-house designer, or
-                                                at a studio or agency, you'll probably have to rebrand at the andWhether you are a freelancer or an in-house designer, or at a studio or agency, you
-                                                will probably have to rebrand at the andWhether yo are a freelancer or an in-house designer, or at a studio or agency, you will probably have to rebrand
-                                                at the and.Whether you are a freelancer or an in-house designer, or at a studio or agency, you will probably have to rebrand at the and Whether you are
-                                                a freelancer or an in-house designer, or at a studio or agency, you will probably have to rebrand at the andWhether youa are a freelancer or an in-house
-                                                designer, or at a studio or agency.</p>
-                                        </div>
-                                        <div class="vg_tm_popup_share_wrap">
-                                            <ul>
-                                                <li><a href="#">Facebook</a></li>
-                                                <li><a href="#">Twitter</a></li>
-                                                <li><a href="#">Linkedin</a></li>
-                                                <li><a href="#">Behance</a></li>
-                                            </ul>
-                                        </div>
-                                        <div class="read_more">
-                                            <a href="#"><span>Read More</span></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="wow fadeInUp" data-wow-duration="1.2s" data-wow-delay="0.4s">
-                                <div class="inner_list">
-                                    <div class="image_wrap">
-                                        <img class="small" src="img/blog/500x350.jpg" alt=""/>
-                                        <img class="big" src="img/blog/1170x450.jpg" alt=""/>
-                                        <div class="news_image" data-url="img/blog/3.jpg"></div>
-                                        <a class="link_news" href="index.html"></a>
-                                    </div>
-                                    <div class="definitions_wrap">
-                                        <div class="date_wrap">
-                                            <p>April 12, 2018 <a href="index.html">Branding</a></p>
-                                        </div>
-                                        <div class="title_holder">
-                                            <h3><a href="index.html">Innovative Ways to Increase Brand</a></h3>
-                                        </div>
-                                        <div class="definition">
-                                            <p>Having a solid, trusted brand is important for your company to thrive. If your target audience does not know or trust ...</p>
-                                        </div>
-                                        <div class="full_def">
-                                            <p>Having a solid, trusted brand is important for your company to thrive. If your target audience does not know or trust your brand, how will you ever
-                                                increase your customer base and sales? Here are six innovative strategies you can use to increase brand awareness and help your business thrive.
-                                                Inviting influencers into your niche is a great way to increase brand awareness and hopefully drive sales. When influencers have an established audience
-                                                that knows and trusts them, once they mention your product(s) and discuss your brand in their content, those mentions will expand your reach and
-                                                increase peoples awareness of your product. Ikonick is a perfect example of a company that works directly with influencers: It sells canvas art for your
-                                                home and office. The way Ikonick uses influencers involves providing them with art and having those influencers pose with the art, then share the photos
-                                                on social media. "Our relationships are an important part of our business," co-founder Mark Mastrandrea told me. "Our relationships make up our
-                                                community, and the community is how our brand grows." Ikonick uses all types of influencers, from Instagram photographers to celebrities. The companys
-                                                social strategy has enabled it to scale and grow exponentially because its influencers become part of its sales team -- even ambassadors. The
-                                                relationship is mutually rewarding, Mastrandrea said. Companies can also offer to sponsor influencers at an event (if they do that sort of thing) and
-                                                even use them as spokespersons for their brand and product(s). A lot of CrossFit-related companies do this, including Rogue Fitness, which sponsors
-                                                certain athletes with clothing. The athlete then becomes a walking billboard for the company. Have you ever received an order that came in branded
-                                                packaging? Rather than see it as just another shipment, perhaps you felt that that that special branding made the package seem like a gift. The team
-                                                knows that the product experience doesn't commence at first use, but rather at the unboxing stage. How companies present their brand, and the story they
-                                                tell through their design and graphics, can create an emotional connection with the customer that may last even longer than the product itself.</p>
-                                        </div>
-                                        <div class="vg_tm_popup_share_wrap">
-                                            <ul>
-                                                <li><a href="#">Facebook</a></li>
-                                                <li><a href="#">Twitter</a></li>
-                                                <li><a href="#">Linkedin</a></li>
-                                                <li><a href="#">Behance</a></li>
-                                            </ul>
-                                        </div>
-                                        <div class="read_more">
-                                            <a href="#"><span>Read More</span></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- /NEWS -->
-
-        <!-- PARTNERS -->
-        <div class="vg_tm_section">
-            <div class="vg_tm_partners_wrap_total">
-                <div class="vg_tm_universal_box_wrap">
-                    <div class="bg_wrap">
-                        <div class="overlay_image partners jarallax" data-speed="0"></div>
-                        <div class="overlay_color partners"></div>
-                    </div>
-                    <div class="content partners">
-                        <div class="container">
-                            <div class="vg_tm_partners_wrap">
-                                <ul class="owl-carousel">
-                                    <li class="item">
-                                        <img src="img/partners/1.png" alt=""/>
-                                    </li>
-                                    <li class="item">
-                                        <img src="img/partners/3.png" alt=""/>
-                                    </li>
-                                    <li class="item">
-                                        <img src="img/partners/5.png" alt=""/>
-                                    </li>
-                                    <li class="item">
-                                        <img src="img/partners/6.png" alt=""/>
-                                    </li>
-                                    <li class="item">
-                                        <img src="img/partners/7.png" alt=""/>
-                                    </li>
-                                    <li class="item">
-                                        <img src="img/partners/3.png" alt=""/>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- /PARTNERS -->
-
-        <!-- WORK TOGETHER -->
-        <div class="vg_tm_section">
-            <div class="container">
-                <div class="vg_tm_work_together_total">
-                    <div class="vg_tm_work_together_wrap">
-                        <h3 class="wow fadeIn" data-wow-duration="1.2s">Let's work together</h3>
-                        <p class="wow fadeIn" data-wow-duration="1.2s" data-wow-delay="0.2s">Out believe has request not how comfort evident. Up delight cousins we feeling minutes. Genius has looked
-                            end piqued spring.</p>
-                        <div class="invite wow fadeIn" data-wow-duration="1.2s" data-wow-delay="0.4s">
-                            <a href="#">Send Message</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- /WORK TOGETHER -->
-
-        <!-- CONTACT -->
-        <div class="vg_tm_section" id="contact">
-            <div class="vg_tm_main_title_holder_wrap contact">
-                <div class="number_wrap">
-                    <span>06</span>
-                </div>
-                <div class="title_wrap">
-                    <span>Contact Me</span>
-                </div>
-            </div>
-            <div class="vg_tm_contact_wrap">
-                <div class="short_info">
-                    <div class="container">
-                        <div class="subtitle">
-                            <p class="wow fadeIn" data-wow-duration="1.2s">Any question? Reach out to me and I will get back to you shortly.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="main_input_wrap">
-                    <form action="/" method="post" class="contact_form" id="contact_form">
-                        <div class="returnmessage" data-success="Your message has been received, We will contact you soon."></div>
-                        <div class="empty_notice"><span>Please Fill Required Fields</span></div>
-                        <div class="wrap wow fadeIn" data-wow-duration="1.2s" data-wow-delay="0.2s">
-                            <input id="name" type="text" placeholder="Your Name">
-                        </div>
-                        <div class="wrap wow fadeIn" data-wow-duration="1.2s" data-wow-delay="0.4s">
-                            <input id="email" type="text" placeholder="Your Email">
-                        </div>
-                        <div class="wrap wow fadeIn" data-wow-duration="1.2s" data-wow-delay="0.6s">
-                            <textarea id="message" placeholder="Your Message"></textarea>
-                        </div>
-                        <div class="vg_tm_button wow fadeIn" data-wow-duration="1.2s" data-wow-delay="0.8s">
-                            <a id="send_message" href="#">Send Message</a>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-        <!-- /CONTACT -->
-
-        <!-- FOOTER -->
-        <div class="vg_tm_section">
-            <div class="vg_tm_footer_wrap">
-                <p class="wow fadeIn" data-wow-duration="1.2s">&copy; Copyright 2019. Created by <a href="https://themeforest.net/user/Valentin Gorbatenko">Valentin Gorbatenko</a></p>
-            </div>
-        </div>
-        <!-- /FOOTER -->
-
-    </div>
-    <!-- /CONTENT -->
-
-    <!-- TOP TOP -->
-    <div class="vg_tm_to_top_wrap">
-        <a href="#">Вверх</a>
-    </div>
-    <!-- /TO TOP -->
-
-</div>
-<!-- / WRAPPER ALL -->
-
-<!-- SCRIPTS -->
-<script src="js/jquery.js"></script>
-<!--[if lt IE 10]>
-<script type="text/javascript" src="js/ie8.js"></script> <![endif]-->
-<script src="js/plugins.js"></script>
-<script src="js/init.js"></script>
-<!-- /SCRIPTS -->
-
+    </footer>
+    <!-- jQuery -->
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scrollIt.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/smooth-scroll.min.js"></script>
+    <script src="js/anime.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
