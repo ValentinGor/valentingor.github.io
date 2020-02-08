@@ -191,8 +191,8 @@
         }
     });
     // Clients Carousel
-    $('#rudy-client-carousel').imagesLoaded(function () {
-        $('#rudy-client-carousel').owlCarousel({
+    $('#vg-client-carousel').imagesLoaded(function () {
+        $('#vg-client-carousel').owlCarousel({
             loop: true
             , margin: 10
             , autoplay: true
@@ -214,7 +214,7 @@
         });
     });
     // Blog owlCarousel
-    $('.rudy-blog .owl-carousel').owlCarousel({
+    $('.vg-blog .owl-carousel').owlCarousel({
         loop: true
         , margin: 30
         , mouseDrag: true
@@ -234,7 +234,7 @@
         }
     });
     // Testimonial owlCarousel
-    $('.rudy-testimonial .owl-carousel').owlCarousel({
+    $('.vg-testimonial .owl-carousel').owlCarousel({
         loop: true
         , margin: 0
         , mouseDrag: true
@@ -258,7 +258,7 @@
         offset: 60
     });
     // Button
-    var buttons = document.querySelectorAll(".rudy-btn .rudy-btn2");
+    var buttons = document.querySelectorAll(".vg-btn .vg-btn2");
     for(var i = 0; i < buttons.length; i++) {
       var button = buttons[i];
       button.addEventListener("click", function() {
