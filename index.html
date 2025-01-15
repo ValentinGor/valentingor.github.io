@@ -1,217 +1,327 @@
 <!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Valentin Gorbatenko</title>
+    <head>
+        <meta charset="UTF-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Valentin Gorbatenko</title>
 
-    <!-- Шрифт Poppins -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+        <!-- Шрифт Poppins -->
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+            rel="stylesheet" />
 
-    <!-- Шрифт Plus Jakarta Sans -->
-    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+        <!-- Шрифт Plus Jakarta Sans -->
+        <link
+            href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+            rel="stylesheet" />
 
-    <!-- Шрифт Inter -->
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-    <link rel="stylesheet" href="assets/css/main.css">
-    <link rel="stylesheet" href="assets/css/media.css">
-</head>
-<body>
-
-<header>
-    <div class="container">
-        <div class="logo">
-            <a href="/">
-                <img src="./assets/img/logo.svg" alt="logo">
-            </a>
-        </div>
-        <div class="menu">
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Experience</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </div>
-    </div>
-</header>
-<main>
-    <div class="container">
-        <div class="hero">
-            <div class="hero__image">
-                <img src="assets/img/19743894.jpg" alt="Valentin Gorbatenko">
-            </div>
-            <div class="hero__title">
-                <h1>You handle the design, <br><span>I’ll handle the WordPress magic.</span></h1>
-            </div>
-            <div class="hero__text">
-                <p>I am a seasoned full-stack software engineer with over
-                    8 years of professional experience, specializing in backend development.
-                    My expertise lies in crafting robust and scalable SaaS-based
-                    architectures on the Amazon AWS platform.</p>
-            </div>
-            <div class="hero__link">
-                <a class="white-link" href="#">
-                    Get In Touch
-                </a>
-                <a class="transparent-link" href="#">
-                    Download CV
-                </a>
-            </div>
-        </div>
-        <div class="projects">
-            <div class="projects__title">
-                <h2>Projects</h2>
-            </div>
-            <div class="projects__list">
-                <div class="projects__list_item">
-                    <div class="projects__list_item-image">
-                        <img src="assets/img/project-thumbnail.png" alt="project-thumbnail">
-                    </div>
-                    <div class="projects__list_item-info">
-                        <span>CLICK HERE TO VISIT</span>
-                        <h4>HTML TUTORIAL</h4>
-                        <a href="#">
-                            <img src="assets/img/view-icon.svg" alt="view">
-                        </a>
-                    </div>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+        <link rel="stylesheet" href="assets/css/main.css" />
+        <link rel="stylesheet" href="assets/css/media.css" />
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="./assets/img/logo.svg" alt="logo" />
+                    </a>
                 </div>
-
-                <div class="projects__list_item">
-                    <div class="projects__list_item-image">
-                        <img src="assets/img/project-thumbnail.png" alt="project-thumbnail">
-                    </div>
-                    <div class="projects__list_item-info">
-                        <span>CLICK HERE TO VISIT</span>
-                        <h4>HTML TUTORIAL</h4>
-                        <a href="#">
-                            <img src="assets/img/view-icon.svg" alt="view">
-                        </a>
-                    </div>
+                <div class="menu">
+                    <ul>
+                        <li><a href="#hero">Home</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#experience">Experience</a></li>
+                        <li><a href="#footer">Contact</a></li>
+                    </ul>
                 </div>
-
-                <div class="projects__list_item">
-                    <div class="projects__list_item-image">
-                        <img src="assets/img/project-thumbnail.png" alt="project-thumbnail">
-                    </div>
-                    <div class="projects__list_item-info">
-                        <span>CLICK HERE TO VISIT</span>
-                        <h4>HTML TUTORIAL</h4>
-                        <a href="#">
-                            <img src="assets/img/view-icon.svg" alt="view">
-                        </a>
-                    </div>
+                <button class="burger"></button>
+                <div class="mobile-menu">
+                    <ul>
+                        <li><a href="#hero">Home</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#experience">Experience</a></li>
+                        <li><a href="#footer">Contact</a></li>
+                    </ul>
                 </div>
-
-                <div class="projects__list_item">
-                    <div class="projects__list_item-image">
-                        <img src="assets/img/project-thumbnail.png" alt="project-thumbnail">
-                    </div>
-                    <div class="projects__list_item-info">
-                        <span>CLICK HERE TO VISIT</span>
-                        <h4>HTML TUTORIAL</h4>
-                        <a href="#">
-                            <img src="assets/img/view-icon.svg" alt="view">
-                        </a>
-                    </div>
-                </div>
-
             </div>
-        </div>
-        <div class="experience">
-            <div class="experience__title">
-                <h2>Experience</h2>
-            </div>
-
-            <div class="experience__list">
-                <div class="experience__list_item">
-                    <div class="experience__list_item-info">
-                        <h4>Lead Software Engineer at Google</h4>
-                        <span>Nov 2019 - Present</span>
+        </header>
+        <main>
+            <div class="container">
+                <div id="hero" class="hero">
+                    <div class="hero__image">
+                        <img src="assets/img/19743894.jpg" alt="Valentin Gorbatenko" />
                     </div>
-                    <div class="experience__list_item-description">
-                        <p>As a Senior Software Engineer at Google, I played a pivotal role in developing innovative solutions for Google's core search algorithms. Collaborating with a dynamic team of engineers, I
-                            contributed to the enhancement of search accuracy and efficiency, optimizing user experiences for millions of users worldwide.</p>
-                        <p>As a Senior Software Engineer at Google, I played a pivotal role in developing innovative solutions for Google's core search algorithms. Collaborating with a dynamic team of engineers, I
-                            contributed to the enhancement of search accuracy and efficiency, optimizing user experiences for millions of users worldwide.</p>
+                    <div class="hero__title">
+                        <h1>You handle the design, <br /><span>I’ll handle the WordPress magic.</span></h1>
                     </div>
-                </div>
-                <div class="experience__list_item">
-                    <div class="experience__list_item-info">
-                        <h4>Lead Software Engineer at Google</h4>
-                        <span>Nov 2019 - Present</span>
+                    <div class="hero__text">
+                        <p>
+                            I am an experienced Full-Stack Software Engineer with over 8 years of professional
+                            expertise, specializing in developing custom WordPress themes from scratch. My core
+                            responsibility is transforming a client’s design into a fully functional website with an
+                            intuitive WordPress admin panel.
+                        </p>
                     </div>
-                    <div class="experience__list_item-description">
-                        <p>As a Senior Software Engineer at Google, I played a pivotal role in developing innovative solutions for Google's core search algorithms. Collaborating with a dynamic team of engineers, I
-                            contributed to the enhancement of search accuracy and efficiency, optimizing user experiences for millions of users worldwide.</p>
-                        <p>As a Senior Software Engineer at Google, I played a pivotal role in developing innovative solutions for Google's core search algorithms. Collaborating with a dynamic team of engineers, I
-                            contributed to the enhancement of search accuracy and efficiency, optimizing user experiences for millions of users worldwide.</p>
-                    </div>
-                </div>
-                <div class="experience__list_item">
-                    <div class="experience__list_item-info">
-                        <h4>Lead Software Engineer at Google</h4>
-                        <span>Nov 2019 - Present</span>
-                    </div>
-                    <div class="experience__list_item-description">
-                        <p>As a Senior Software Engineer at Google, I played a pivotal role in developing innovative solutions for Google's core search algorithms. Collaborating with a dynamic team of engineers, I
-                            contributed to the enhancement of search accuracy and efficiency, optimizing user experiences for millions of users worldwide.</p>
-                        <p>As a Senior Software Engineer at Google, I played a pivotal role in developing innovative solutions for Google's core search algorithms. Collaborating with a dynamic team of engineers, I
-                            contributed to the enhancement of search accuracy and efficiency, optimizing user experiences for millions of users worldwide.</p>
-                    </div>
-                </div>
-                <div class="experience__list_item">
-                    <div class="experience__list_item-info">
-                        <h4>Lead Software Engineer at Google</h4>
-                        <span>Nov 2019 - Present</span>
-                    </div>
-                    <div class="experience__list_item-description">
-                        <p>As a Senior Software Engineer at Google, I played a pivotal role in developing innovative solutions for Google's core search algorithms. Collaborating with a dynamic team of engineers, I
-                            contributed to the enhancement of search accuracy and efficiency, optimizing user experiences for millions of users worldwide.</p>
-                        <p>As a Senior Software Engineer at Google, I played a pivotal role in developing innovative solutions for Google's core search algorithms. Collaborating with a dynamic team of engineers, I
-                            contributed to the enhancement of search accuracy and efficiency, optimizing user experiences for millions of users worldwide.</p>
+                    <div class="hero__link">
+                        <a class="white-link" href="mailto:v.gorbatenko84@gmail.com"> Get In Touch </a>
+                        <a class="transparent-link" href="#"> Download CV </a>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
-</main>
-<footer>
-    <div class="container">
-        <div class="contact">
-            <div class="contact__title">
-                <h3>Contact</h3>
-            </div>
-            <div class="contact__text">
-                <p>Seasoned Full Stack Software Engineer with over 8 years of hands-on experience in designing
-                    and implementing robust, scalable, and innovative web solutions. Adept at leveraging a
-                    comprehensive skill set encompassing front-end and back-end technologies </p>
-            </div>
-        </div>
-        <div class="mail">
-            <a href="mailto:v.gorbatenko84@gmail.com">
-                <img src="assets/img/email-icon.svg" alt="email">
-                v.gorbatenko84@gmail.com
-            </a>
-        </div>
-        <div class="social">
-            <a href="#">
-                <img src="assets/img/in.svg" alt="Instagram">
-            </a>
-            <a href="#">
-                <img src="assets/img/tw.svg" alt="Twitter">
-            </a>
-            <a href="#">
-                <img src="assets/img/yt.svg" alt="YouTube">
-            </a>
-        </div>
-    </div>
-</footer>
+            <div class="container">
+                <div id="projects" class="projects">
+                    <div class="projects__title">
+                        <h2>Projects</h2>
+                    </div>
+                    <div class="projects__list">
 
+                        <div class="projects__list_item">
+                            <div class="projects__list_item-image">
+                                <img src="assets/img/knkads.webp" alt="knkads" />
+                            </div>
+                            <div class="projects__list_item-info">
+                                <span>WordPress, PHP, JavaScript, HTML.</span>
+                                <h4>knkads.com</h4>
+                                <p><b>Custom WordPress theme development:</b> Created a fully customized WordPress theme tailored to the client’s specific needs, adhering to modern standards and requirements.</p>
+                                <p><b>Delivery of multiple implementation options:</b> Developed several solutions to meet the demands of a discerning client, ensuring flexibility and the ability to select the most optimal approach.</p>
+                                <p><b>User-friendly admin panel:</b> Provided an intuitive interface for easy content management, enabling the client to update the website independently.</p>
+                                <a href="https://knkads.com/" target="_blank">
+                                    <img src="assets/img/view-icon.svg" alt="view" />
+                                </a>
+                            </div>
+                        </div>
 
-<script src="assets/js/main.js"></script>
-</body>
+                        <div class="projects__list_item">
+                            <div class="projects__list_item-image">
+                                <img src="assets/img/carshauler.webp" alt="carshauler" />
+                            </div>
+                            <div class="projects__list_item-info">
+                                <span>SCSS, Gulp, WordPress, PHP, JavaScript, HTML, CSS.</span>
+                                <h4>carshauler.com</h4>
+                                <p><b>Responsive layout using SCSS and task automation with Gulp:</b> Created a user-friendly and cross-browser interface that displays correctly on all devices. SCSS was used to structure styles, while Gulp automated tasks such as file minification and image optimization.</p>
+                                <p><b>Custom WordPress theme development:</b> Built a theme from scratch, tailored to the client’s business needs, ensuring easy content management through an intuitive admin panel.</p>
+                                <p><b>Order form integration with CRM:</b> Implemented a form that sends data directly to the client’s CRM system, streamlining the process of handling orders and improving operational efficiency.</p>
+                                <a href="https://carshauler.com/" target="_blank">
+                                    <img src="assets/img/view-icon.svg" alt="view" />
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div id="experience" class="experience">
+                    <div class="experience__title">
+                        <h2>Experience</h2>
+                    </div>
+
+                    <div class="experience__list">
+                        <div class="experience__list_item">
+                            <div class="experience__list_item-info">
+                                <h4>
+                                    Lead Developer
+                                    <span>
+                                        K&K Advertising Ltd, Kington, United Kingdom (Marketing, Advertising, PR)</span
+                                    >
+                                </h4>
+                                <span>Apr 2023 – Jul 2024</span>
+                            </div>
+                            <div class="experience__list_item-description">
+                                <p>
+                                    As a Lead Developer, I managed a team, oversaw the development process, and ensured
+                                    code quality through testing. My key responsibilities included:
+                                </p>
+                                <ul>
+                                    <li>
+                                        Team Leadership: I led the development team, coordinating efforts to meet
+                                        project goals and deadlines. This required excellent communication,
+                                        organization, and delegation skills.
+                                    </li>
+                                    <li>
+                                        Code Quality and Testing: I ensured the code met high standards by implementing
+                                        thorough testing procedures, which helped maintain product stability and
+                                        reliability.
+                                    </li>
+                                    <li>
+                                        Process Standardization: I optimized and standardized workflows to improve
+                                        efficiency, contributing to better project delivery and streamlined development
+                                        processes.
+                                    </li>
+                                    <li>
+                                        Team Training and Client Onboarding: I created video tutorials for team training
+                                        and client onboarding, facilitating smooth integration and knowledge transfer
+                                        across the team and clients.
+                                    </li>
+                                </ul>
+                                <p>
+                                    <b>Outcome:</b>
+                                </p>
+                                <p>
+                                    This role strengthened my leadership, organizational, and mentoring skills. It
+                                    demonstrated my ability to manage both technical and human resources effectively,
+                                    contributing to the overall success of the team and the projects.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="experience__list_item">
+                            <div class="experience__list_item-info">
+                                <h4>Full-Stack Developer <span>White Label Agency, Sumy (IT)</span></h4>
+                                <span>Sep 2021 – Mar 2023</span>
+                            </div>
+                            <div class="experience__list_item-description">
+                                <p>
+                                    In my role as a Full-Stack Developer, I worked on both front-end and back-end
+                                    development, creating custom solutions on the WordPress platform. This experience
+                                    allowed me to:
+                                </p>
+                                <ul>
+                                    <li>
+                                        Develop and maintain unique WordPress websites tailored to client needs, with a
+                                        focus on performance and stability.
+                                    </li>
+                                    <li>
+                                        Optimize website performance by implementing best practices for caching,
+                                        compression, and server-side configuration.
+                                    </li>
+                                    <li>
+                                        Advise clients in shaping technical requirements and ensure successful project
+                                        implementation.
+                                    </li>
+                                    <li>
+                                        Collaborate with cross-functional teams, ensuring timely delivery and seamless
+                                        integration of new features.
+                                    </li>
+                                </ul>
+                                <p>
+                                    <b>Outcome:</b>
+                                </p>
+                                <p>
+                                    I deepened my Full-Stack development skills and strengthened my reputation as a
+                                    reliable and productive specialist, capable of effectively solving complex tasks and
+                                    providing a high level of client service.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="experience__list_item">
+                            <div class="experience__list_item-info">
+                                <h4>Frontend Developer <span>BrainDIS, Sumy (IT)</span></h4>
+                                <span>Mar 2017 – Sep 2021</span>
+                            </div>
+                            <div class="experience__list_item-description">
+                                <p>
+                                    This role marked an important transition in my career, where I specialized in
+                                    WordPress and worked on dynamic websites from design to deployment. Here’s what I
+                                    focused on:
+                                </p>
+                                <ul>
+                                    <li>
+                                        WordPress specialization: I honed my skills in creating dynamic websites on the
+                                        WordPress platform, ensuring they met client needs while being flexible and
+                                        scalable.
+                                    </li>
+                                    <li>
+                                        Full-cycle website development: I was responsible for taking websites from
+                                        design to live deployment, which helped me master the entire development
+                                        process, from front-end development to integration with back-end systems.
+                                    </li>
+                                    <li>
+                                        Collaboration with designers: I implemented Figma layouts into code, working
+                                        closely with design teams to bring their concepts to life with high accuracy.
+                                    </li>
+                                    <li>
+                                        SEO and cross-browser compatibility: I optimized websites for better search
+                                        engine rankings and ensured they worked smoothly across different browsers,
+                                        contributing to better user experiences and site visibility.
+                                    </li>
+                                </ul>
+                                <p>
+                                    <b>Outcome:</b>
+                                </p>
+                                <p>
+                                    This experience helped me grow into a more seasoned Frontend Developer, able to
+                                    handle more complex projects and work effectively within teams. It also solidified
+                                    my ability to take full ownership of projects, from conception to completion, with a
+                                    focus on performance and user experience.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="experience__list_item">
+                            <div class="experience__list_item-info">
+                                <h4>Frontend Developer <span>Freelance, Kyiv (IT)</span></h4>
+                                <span>Feb 2016 – Mar 2017</span>
+                            </div>
+                            <div class="experience__list_item-description">
+                                <p>
+                                    In my first professional role, I focused on creating responsive websites using HTML
+                                    and CSS, paying close attention to clean and maintainable code. This experience
+                                    allowed me to:
+                                </p>
+                                <ul>
+                                    <li>
+                                        Accurately transform designs into functional web pages, improving my front-end
+                                        development skills and client communication.
+                                    </li>
+                                    <li>
+                                        Start working with modern tools like Gulp and SCSS, which optimized my workflow
+                                        and increased efficiency.
+                                    </li>
+                                    <li>
+                                        Lay the groundwork for deeper specialization in front-end development and
+                                        transitioning to more complex projects.
+                                    </li>
+                                </ul>
+                                <p><b>Outcome:</b></p>
+                                <p>
+                                    I gained essential technical skills and developed a professional approach to my
+                                    work, which helped me quickly move on to more challenging roles and confidently
+                                    advance my career in IT.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer id="footer">
+            <div class="container">
+                <div class="contact">
+                    <div class="contact__title">
+                        <h3>Contact</h3>
+                    </div>
+                    <div class="contact__text">
+                        <p>
+                            My main task is to take your ready design and transform it into a working WordPress site
+                            with an intuitive admin panel. I ensure that your site not only looks exactly how you want
+                            but is also easy to manage, allowing you to effortlessly update content and keep it up to
+                            date.
+                        </p>
+                        <p>Click on the email below to discuss your project and order website development!</p>
+                    </div>
+                </div>
+                <div class="mail">
+                    <a href="mailto:v.gorbatenko84@gmail.com">
+                        <img src="assets/img/email-icon.svg" alt="email" />
+                        v.gorbatenko84@gmail.com
+                    </a>
+                </div>
+                <div class="social">
+                    <a href="#">
+                        <img src="assets/img/in.svg" alt="Instagram" />
+                    </a>
+                    <a href="#">
+                        <img src="assets/img/tw.svg" alt="Twitter" />
+                    </a>
+                    <a href="#">
+                        <img src="assets/img/yt.svg" alt="YouTube" />
+                    </a>
+                </div>
+            </div>
+        </footer>
+
+        <script src="assets/js/main.js"></script>
+    </body>
 </html>

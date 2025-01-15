@@ -1,13 +1,133 @@
-@media (max-width: 1200px) {
-    /* Стили для экранов шириной до 1200px */
+@media (max-width: 1199px) {
+    /* Стили для экранов шириной до 1199px */
+
+    .hero__title h1 {
+        font-size: 50px;
+    }
+
+    .hero__text p {
+        font-size: 16px;
+    }
 }
 
-@media (max-width: 1024px) {
-    /* Стили для экранов шириной до 1024px */
+@media (max-width: 1023px) {
+    /* Стили для экранов шириной до 1023px */
+
+    .hero__title h1 {
+        font-size: 40px;
+    }
+
+    .projects__title h2 {
+        font-size: 32px;
+    }
+
+    .experience__title h2 {
+        font-size: 32px;
+    }
 }
 
-@media (max-width: 768px) {
-    /* Стили для экранов шириной до 768px */
+@media (max-width: 767px) {
+    /* Стили для экранов шириной до 767px */
+
+    .menu {
+        display: none;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    .mobile-menu {
+        display: flex;
+        background: #000;
+        position: absolute;
+        top: 68px;
+        right: -280px;
+        width: 100%;
+        max-width: 280px;
+        height: auto;
+        min-height: calc(100vh - 68px);
+        transition: ease-in-out 300ms;
+    }
+
+    .mobile-menu.active {
+        right: 0;
+    }
+
+    .mobile-menu ul {
+        margin: 0;
+        padding: 20px 0;
+    }
+
+    .mobile-menu ul li {
+        list-style: none;
+        padding: 0 20px 15px;
+    }
+
+    .mobile-menu ul li a {
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-weight: 600;
+        font-size: 15px;
+        letter-spacing: 0.02em;
+        color: #fff;
+        text-decoration: none;
+        transition: ease-in-out 300ms;
+    }
+
+    .mobile-menu ul li a:hover {
+        opacity: 0.7;
+    }
+
+    header {
+        min-height: 68px;
+    }
+
+    .logo a img {
+        width: 68px;
+        height: 68px;
+    }
+
+    .hero__link {
+        flex-direction: column;
+    }
+
+    a.white-link {
+        width: 250px;
+        margin: 0 0 30px;
+    }
+
+    a.transparent-link {
+        width: 250px;
+        transition: ease-in-out 300ms;
+        margin: 0;
+    }
+
+    .projects__list_item {
+        border-radius: 16px;
+        width: 100%;
+    }
+
+    .experience__list_item-info {
+        flex-direction: column-reverse;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .experience__list_item-info span {
+        width: 100%;
+        margin-bottom: 6px;
+    }
+
+    .experience__list_item-info h4 {
+        width: 100%;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .experience__list_item-info h4 span {
+        margin-left: 0;
+    }
 }
 
 @media (max-width: 425px) {

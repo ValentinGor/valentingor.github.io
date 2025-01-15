@@ -11,3 +11,6 @@ node_modules/
 # Игнорирование временных файлов
 *.log
 *.tmp
+
+# Игнорирование phcode
+.phcode.json
